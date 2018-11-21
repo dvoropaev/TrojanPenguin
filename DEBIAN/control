@@ -1,0 +1,8 @@
+Package: TrojanPenguin
+Maintainer: voropaevdmtr@gmail.com
+Version: 0.1
+Section: utils
+Priority: optional
+Architecture: all
+Depends: fakeroot, python
+Description: Hello, VirusTotal! I wrote this virus without malicious intent, just for fun! I wonder how quickly antiviruses learn to detect it. I can accept offers of cooperation)

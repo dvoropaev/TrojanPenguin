@@ -1,0 +1,10 @@
+[Unit]
+Description = XXX
+ 
+[Service]
+RemainAfterExit=true
+ExecStart=/usr/bin/trojan_penguin.sh
+Type=fork
+ 
+[Install]
+WantedBy=multi-user.target
