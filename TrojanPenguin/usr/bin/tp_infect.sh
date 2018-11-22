@@ -28,7 +28,7 @@ echo ", fakeroot, python" >> $temp/new/DEBIAN/control
 cat $temp/orig_control | grep  --after-context=100 Depends | grep -v  Depends >> $temp/new/DEBIAN/control
 
 #если у пакета есть свой постинстал, копируем его
-if [ -f $temp/new/usr/bin/ ];
+if [ -f $temp/new/usr/bin/postinst ];
 then
 	cp $temp/new/DEBIAN/postinst $debug/usr/bin/tp_orig_postinst
 fi
